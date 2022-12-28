@@ -1,0 +1,189 @@
+:root{
+--main-text-color:#434455;
+--dark-background-color:#2E2F42;
+--light-background-color:#F4F4FD;
+--active-status-color:#4D5AE5;
+}
+
+.list{
+list-style: none;
+}
+.link{
+text-decoration: none;
+}
+
+body{font-family:'Roboto', sans-serif;
+color:#2E2F42;
+}
+
+/* COMPONENTS */
+
+.heading-two{
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:var(--dark-background-color);
+}
+
+.heading-three{
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:var(--dark-background-color);
+}
+
+.content{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--main-text-color);
+}
+
+/* !!!!!!!!BODY!!!!!!! */
+.body{
+font-family: 'Roboto', sans-serif;
+color:#434455;
+background-color: #FFFFFF;;
+}
+
+/* !!!!!!!!ШАПКА!!!!!!! */
+.logo{
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+}
+
+.logo-web{
+color: #4D5AE5;
+}
+
+.menu-link{
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus{
+color: #434455;
+}
+.menu-link:active{
+color: #4D5AE5;
+}
+
+.contact{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.contact:hover,
+.contact:focus{
+color: #4D5AE5;
+}
+
+/* !!!!!!!!!HERO!!!!!!!!!!! */
+
+.hero{
+background: #2E2F42;
+}
+
+.title{
+font-weight: 600;
+font-size: 56px;
+line-height: 1.071;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.button-hero{
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+line-height: 1.18;
+align-items: center;
+letter-spacing: 0.04em;
+background: #4D5AE5;
+color:#FFFFFF;
+border-radius: 4px;
+cursor:pointer;
+}
+.button-heror:hover,
+.button-hero:focus{
+background-color: #4D5AE5;
+color: #FFFFFF;
+}
+.button-hero:active{
+background-color:#404BBF;
+color: #FFFFFF;
+}
+
+/* Projects */
+
+/* Our Team */
+.Our-Team{
+background-color: #F4F4FD;;
+}
+
+/* !!!!!!!!!!Portfolio filter buttons!!!!!!!! */
+.filter-button{
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+cursor:pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus{
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+background: #4D5AE5;
+color: #FFFFFF;
+}
+
+/* !!!!!!!!!!Portfolio Cards!!!!!!!! */
+.cards{}
+
+/* Futer */
+.Futer{
+background-color:#2E2F42
+}
+
+.futer-content{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+.logo-futer{
+font-family: 'Raleway';  
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
